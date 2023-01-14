@@ -1,0 +1,82 @@
+Commit Message Template
+
+```
+<topic>: <subtopic>
+
+<body>
+
+<footer>
+```
+
+Topics and Subtopics:
+- topic: Broad category such as `PySpark`, `Data Pipeline`, `SQL`, etc.
+- subtopic: More specific category within the topic such as `Unit Testing`, `Transformation`, `Query Optimization`, etc.
+
+Types of changes:
+- feat: A new feature or learning example
+- fix: A bug fix or correction in a learning example
+- docs: Documentation updates or additions
+- refactor: Code refactoring or style changes without changing functionality
+- test: Adding or modifying tests or learning exercises
+- chore: Routine tasks like updating dependencies or cleaning up
+
+Body:
+- Explain the *what* and *why* of the changes. 
+- Use bullet points if necessary.
+- Wrap text at 72 characters.
+
+Footer:
+- Reference any related issue numbers or learning goals.
+- Include breaking changes if any.
+
+Example Commit Messages:
+
+1. Adding a new feature or learning example:
+   ```
+   PySpark: Transformation
+
+   - feat: Added a new example in application.py to demonstrate advanced
+           transformation logic with PySpark for learning purposes.
+   ```
+
+2. Fixing a bug or correction:
+   ```
+   SQL: Query Optimization
+
+   - fix: Corrected syntax error in query_optimization.sql example that was
+          causing a runtime error during execution.
+   ```
+
+3. Updating documentation:
+   ```
+   PySpark: Setup Instructions
+
+   - docs: Added detailed setup instructions for getting started with the
+           PySpark examples, including environment setup and dependencies.
+   ```
+
+4. Refactoring code:
+   ```
+   PySpark: Transformation
+
+   - refactor: Optimized the transformation logic example in application.py
+               to make it more efficient and easier to understand.
+   - refactor: Reformatted the ETL script in etl_pipeline.py to improve
+               readability and adhere to PEP8 guidelines.
+   ```
+
+5. Adding or modifying tests or exercises:
+   ```
+   PySpark: Unit Testing
+
+   - test: Added unit tests in test_application.py to validate the
+           transformation logic example in application.py.
+   ```
+
+6. Routine tasks:
+   ```
+   Dependencies: Update
+
+   - chore: Updated the dependencies in requirements.txt to the latest versions
+            to ensure compatibility and address any security vulnerabilities.
+   ```
